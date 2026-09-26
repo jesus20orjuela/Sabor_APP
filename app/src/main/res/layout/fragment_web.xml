@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="16dp">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Explorar un sitio web" android:textSize="24sp" android:textStyle="bold"
+        android:textColor="@color/wine"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Ingresa una dirección para abrirla dentro de SaborApp"
+        android:textColor="@color/muted"/>
+    <EditText android:id="@+id/edtUrl" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="https://www.example.com"
+        android:inputType="textUri" android:singleLine="true" android:layout_marginTop="10dp"/>
+    <Button android:id="@+id/btnLoadUrl" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Cargar sitio"
+        android:textAllCaps="false"/>
+    <ProgressBar android:id="@+id/webProgress" style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent" android:layout_height="4dp" android:visibility="gone"/>
+    <WebView android:id="@+id/webView" android:layout_width="match_parent"
+        android:layout_height="0dp" android:layout_weight="1"/>
+</LinearLayout>

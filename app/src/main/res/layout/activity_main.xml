@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/cream">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="64dp"
+        android:gravity="center_vertical" android:paddingHorizontal="18dp"
+        android:background="@color/wine">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="SaborApp" android:textColor="@color/white"
+            android:textSize="22sp" android:textStyle="bold"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginStart="10dp" android:text="Recetas culinarias"
+            android:textColor="#F8DDE6" android:textSize="12sp"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <FrameLayout android:id="@+id/menuContainer"
+            android:layout_width="118dp" android:layout_height="match_parent"/>
+        <View android:layout_width="1dp" android:layout_height="match_parent"
+            android:background="#E6D7CA"/>
+        <FrameLayout android:id="@+id/contentContainer"
+            android:layout_width="0dp" android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

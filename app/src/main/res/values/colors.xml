@@ -1,0 +1,12 @@
+<resources>
+    <color name="wine">#6F1230</color>
+    <color name="wine_dark">#47091D</color>
+    <color name="wine_soft">#8E3451</color>
+    <color name="cream">#FFF8EF</color>
+    <color name="cream_dark">#F6E8D8</color>
+    <color name="peach">#F7DFC7</color>
+    <color name="gold">#E2A13A</color>
+    <color name="ink">#2B211D</color>
+    <color name="muted">#7A6A63</color>
+    <color name="white">#FFFFFF</color>
+</resources>

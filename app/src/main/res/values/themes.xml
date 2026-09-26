@@ -1,0 +1,12 @@
+<resources>
+    <style name="Theme.SaborApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/wine</item>
+        <item name="colorPrimaryVariant">@color/wine_dark</item>
+        <item name="colorSecondary">@color/gold</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@color/wine_dark</item>
+        <item name="android:navigationBarColor">@color/cream</item>
+        <item name="android:colorAccent">@color/gold</item>
+    </style>
+</resources>

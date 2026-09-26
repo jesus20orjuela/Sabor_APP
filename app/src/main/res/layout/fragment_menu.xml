@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="8dp" android:background="#FFF3E6">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="SECCIONES" android:textStyle="bold" android:textSize="11sp"
+        android:textColor="@color/wine" android:padding="6dp"/>
+    <Button android:id="@+id/btnPerfil" style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent" android:layout_height="52dp" android:text="Perfil"
+        android:textAllCaps="false" android:textColor="@color/ink"/>
+    <Button android:id="@+id/btnRecetas" style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent" android:layout_height="52dp" android:text="Recetas"
+        android:textAllCaps="false" android:textColor="@color/ink"/>
+    <Button android:id="@+id/btnVideo" style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent" android:layout_height="52dp" android:text="Video"
+        android:textAllCaps="false" android:textColor="@color/ink"/>
+    <Button android:id="@+id/btnWeb" style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent" android:layout_height="52dp" android:text="Web"
+        android:textAllCaps="false" android:textColor="@color/ink"/>
+    <Button android:id="@+id/btnBotones" style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent" android:layout_height="52dp" android:text="Botones"
+        android:textAllCaps="false" android:textColor="@color/ink"/>
+    <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Equipo 5\n5 BITS" android:textSize="9sp" android:textColor="@color/muted"
+        android:gravity="center" android:padding="6dp"/>
+</LinearLayout>

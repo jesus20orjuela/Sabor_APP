@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="18dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Perfil del equipo" android:textSize="24sp" android:textStyle="bold"
+            android:textColor="@color/wine"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Proyecto académico · Equipo 5 - 5 BITS" android:textColor="@color/muted"
+            android:layout_marginTop="4dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" android:background="@drawable/bg_panel"
+            android:padding="14dp" android:text="SaborApp es un recetario digital para consultar recetas, ingredientes, procedimientos, imágenes, videos y recursos web. La aplicación utiliza una actividad principal con navegación y contenido mediante fragmentos."/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="14dp" android:background="@drawable/bg_card"
+            android:text="Integrantes\n\nJesús Orlando Orjuela Cerquera\nLeidy Alejandra Parra Pulido\nFranklin Yesid Cárdenas Holguín\nAlejandro Roncancio Clavijo\nLedwin Antonio Muñoz"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="14dp" android:background="@drawable/bg_card"
+            android:text="Objetivo\n\nDiseñar y desarrollar una aplicación Android orientada a la consulta y exploración de recetas culinarias mediante una interfaz clara, organizada y amigable."/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="16dp">
+        <Button android:id="@+id/btnBackRecipes" style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="‹ Volver a recetas" android:textAllCaps="false" android:textColor="@color/wine"/>
+        <TextView android:id="@+id/txtDetailName" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:textSize="24sp" android:textStyle="bold"
+            android:textColor="@color/wine"/>
+        <TextView android:id="@+id/txtDetailTime" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:textColor="@color/muted" android:layout_marginBottom="10dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="120dp"
+            android:gravity="center" android:text="🍽️" android:textSize="54sp"
+            android:background="@drawable/bg_recipe_image"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Ingredientes" android:textStyle="bold" android:textSize="18sp"
+            android:textColor="@color/wine" android:layout_marginTop="14dp"/>
+        <TextView android:id="@+id/txtIngredients" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:background="@drawable/bg_card"
+            android:layout_marginTop="6dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Preparación" android:textStyle="bold" android:textSize="18sp"
+            android:textColor="@color/wine" android:layout_marginTop="14dp"/>
+        <TextView android:id="@+id/txtProcedure" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:background="@drawable/bg_card"
+            android:layout_marginTop="6dp"/>
+        <Button android:id="@+id/btnDetailFavorite" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Guardar en favoritos"
+            android:textAllCaps="false" android:layout_marginTop="12dp"/>
+        <Button android:id="@+id/btnDetailShare" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Compartir receta"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+</ScrollView>

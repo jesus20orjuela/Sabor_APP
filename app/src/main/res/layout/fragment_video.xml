@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="16dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Video de preparación" android:textSize="24sp" android:textStyle="bold"
+            android:textColor="@color/wine"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Tutorial de cocina" android:textColor="@color/muted"/>
+        <VideoView android:id="@+id/videoView" android:layout_width="match_parent"
+            android:layout_height="230dp" android:layout_marginTop="14dp"
+            android:background="@color/wine_dark"/>
+        <Button android:id="@+id/btnPlayDemo" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Preparar reproductor"
+            android:textAllCaps="false"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" android:background="@drawable/bg_card"
+            android:text="El módulo implementa VideoView y MediaController. Para la entrega final se puede agregar un archivo MP4 en res/raw y asignarlo al reproductor. La interfaz permanece estable si el recurso aún no está disponible."/>
+    </LinearLayout>
+</ScrollView>
